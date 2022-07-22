@@ -105,9 +105,11 @@ a:hover {
     /* background: url("img/texture-paper.png");
     background-size: 280px 280px; */
 }
-
+/* :::::::::::: */
+/* ::::::::::: */
+/* enlever leffet de fixation de l'image */
 .b-parallax {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .d-bloc {
@@ -780,9 +782,11 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
+/* :::::::::::::::: */
+/* :::::::::::::::: */
+/* enlever le fond bleu de l'image en fond d'ecran */
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    /* background-color: #364577; */
 }
 /* ::::::::::: */
 /* :::::::::::::: */
@@ -844,7 +848,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
