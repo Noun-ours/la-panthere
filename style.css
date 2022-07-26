@@ -517,19 +517,21 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
-
+/* ::::::::::: */
+/* :::::::::::::: */
+/* changer la couleur des bordures du formulair */
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgb(31, 1, 1);
     box-shadow: none;
 }
-
+/* enlever l'opacite de bouton haut de page */
 .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    /* opacity: 0; */
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -834,9 +836,11 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
+/* ::::::::: */
+/* ::::::::::: */
+/* supprimer le bgc dots */
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    /* background-image: url("img/dots-bg.png"); */
 }
 
 .bg-lines-h2-bg {
@@ -845,6 +849,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    background-size: cover!important;
 }
 
 .bg-presentation {
