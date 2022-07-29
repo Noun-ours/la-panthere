@@ -665,9 +665,10 @@ h6,
 p,
 label,
 .btn,
+
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #000000!important;
 }
 
