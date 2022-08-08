@@ -27,6 +27,18 @@ a:hover {
     cursor: pointer;
 }
 
+
+/* :::::: */
+/* :::::: */
+/* mettre de l'espace entre les liens entasséz */
+
+.col-sm-4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
