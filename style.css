@@ -16,6 +16,11 @@ button {
 *:focus{
     outline: black 1px solid!important;
 }
+
+.title{
+    font-weight: 700;
+    color: #525151!important;
+}
 /* :::::::::::::::::::: */
 /* :::::::::::::::::::: */
 /* enlever la height */
