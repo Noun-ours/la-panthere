@@ -13,6 +13,9 @@ button {
     outline: none!important;
 }
 
+*:focus{
+    outline: black 1px solid!important;
+}
 /* :::::::::::::::::::: */
 /* :::::::::::::::::::: */
 /* enlever la height */
